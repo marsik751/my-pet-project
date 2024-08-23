@@ -1,0 +1,27 @@
+.btn__add {
+    width: 191px;
+    height: 39px;
+    background: #0FA8AD;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 23px;
+    font-family: Inter, sans-serif;
+}
+
+.btn__add img {
+    margin-right: 21px;
+}
+
+.btn__add:hover {
+    border: #5e5e5e 1px solid;
+}
+
+.btn__add:active {
+    box-shadow: inset 2px 3px 4px 1px #606060, 0px 4px 5px #b8b8b8;
+    border: none;
+}

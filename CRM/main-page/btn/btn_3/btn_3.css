@@ -1,0 +1,28 @@
+.btn__delete {
+    width: 191px;
+    height: 39px;
+    background-color: #50CCAE;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 24px;
+    font-family: Inter, sans-serif;
+}
+
+.btn__delete img {
+    margin-right: 30px;
+}
+
+.btn__delete:hover {
+    box-shadow: inset 0px 4px 3px 1px #0000002a
+}
+
+.btn__delete:active {
+    box-shadow: inset 3px 4px 3px 1px #0000006f;
+    border: none;
+}
