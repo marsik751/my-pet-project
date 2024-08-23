@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/edit_page.css">
+    <title>Главная страница</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#">
+            <img class="header__burger" src="icon/burger.svg" alt="burger">
+        </a>
+
+        <div class="header__logo">
+            <img class="image" src="img/logo.png" alt="Перезагрузите страницу">
+        </div>
+
+        <div class="header__title">
+            <h1 class="title">CRM</h1>
+        </div>
+        <div class="header__username">
+            <a class="username_link" href="#">
+                <p><span class="user">Имя</span> <br> пользователя</p>
+            </a>
+            <a href="#">
+                <img class="username__img" src="icon/user.svg" alt="icon-user">
+            </a>
+
+            <a class="more__link" href="">
+                <img src="icon/more.svg" alt="icon">
+            </a>
+
+        </div>
+    </header>
+    <aside class="sidenav">
+        <button class="sidenav_btn"><img src="icon/home.svg" alt="">
+            <span class="btn_text">Филиал</span class="text-red"></button>
+        <a href="#"><img class="link_icon-1" src="icon/notebook.svg" alt="">Отчет роялти</a>
+        <a href="#"><img class="link_icon-2" src="icon/graphick.svg" alt="">Статистика</a>
+    </aside>
+
+
+
+    <main>
+
+        <div class="main__btn">
+            <div class="btn_edit">
+                <button class="btn__edit">
+                    <img src="icon/Vector.svg" alt="">
+                    Править
+                </button>
+            </div>
+            <div class="btn_delete">
+                <button class="btn__delete">
+                    <img src="icon/trash-2.svg" alt="">
+                    Удалить
+                </button>
+            </div>
+        </div>
+        <div class="tabs">
+            <button class="btn__branch">Филиал</button>
+            <p class="main-text">Архив</p>
+        </div>
+        <div class="container-bg">
+        <div class="container">
+
+
+            <div class="content">
+                
+                <div class="content_left">
+                    <div class="left_title">
+                    <img src="icon/v4.svg" alt="">
+                    <p class="left_title-1">Редактировать данные</p>
+                </div>
+                    <p class="left_title-2">Название филиала</p>
+                    <p class="left_title-3">Адрес филиала</p>
+
+                    <p class="left_title-4">Договор с филиалом</p>
+                    <p class="left_title-5">Процент роялти<span>*</span></p>
+                    <p class="left_title-6">Минимальный платеж</p>
+                    <p class="left_title-7">Руководитель</p>
+                </div>
+
+                <div class="content_center">
+                    <table class="table_center">
+                        <input type="text" name="" placeholder="KiberOne-Славянск-на-Кубани" id="input" disabled>
+
+                        <tr>
+                            <td><label for="">Страна <span class="text-red">*</span></label></td>
+                            <td><select name="" id="select" class="dropdown-1" disabled>
+                                <option value="" class="option">Российская Федерация</option>
+                                </select></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td><label for="">Город <span class="text-red">*</span></label></td>
+                            <td><select name="" id="select" class="dropdown-1" disabled>
+                                <option value="">Славянск-на-Кубани</option>
+                                </select>
+                            </td>
+                           
+                        </tr>
+
+                        <tr>
+                            <td><label for="">Номер <span class="text-red">*</span></label></td>
+                            <td>
+                                <input type="number" name="" id="num-2" placeholder="000-000-000">
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td><input type="number" name="" id="num" placeholder="00"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Сумма<span class="text-red">*</span></td>
+                            <td><input type="text" name="" id="indent" placeholder="Ввести данные"></td>
+                        </tr>
+                        <tr>
+                            <td>Фамилия<span class="text-red">*</span></td>
+                            <td><input type="text" name="" id="indent" placeholder="Ввести данные"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Телефон<span class="text-red">*</span></td>
+                            <td><input type="text" name="" id="indent" placeholder="+7(000)000-00-00"></td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="content_right">
+                    
+                    <table>
+                        <tr>
+                            <td>Дата<span class="text-red">*</span></td>
+                            <td><input type="text" placeholder="ДД.ММ.ГГГГ" id="date" name=""></td>
+                        </tr>
+                        <tr>
+                            <td><p class="right_title-1">Валюта<span class="text-red">*</span></p></td>
+                            <td><select class="dropdown" name="" id="select-2">
+                                    <option value="">----------------</option>
+                                </select></td>
+                        </tr>
+
+                        <tr>
+                            <td>Имя<span class="text-red">*</span></td>
+                            <td><input type="text" name="" id="name" placeholder="Ввести данные"></td>
+                            <td>Отчество</td>
+                            <td><input type="text" placeholder="Ввести данные" id="surname" name=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>Email<span class="text-red">*</span></td>
+                            <td><input type="email" name="" id="" placeholder="Ввести данные"></td>
+                        </tr>
+
+                        
+                    </table>
+                
+                    <button class="btn_save">
+                            Сохранить
+                        </button>
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
