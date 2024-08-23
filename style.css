@@ -1,0 +1,55 @@
+.page {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.header {
+   display: flex;
+   
+   justify-content: space-between;
+   align-items: center;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.header-item {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.header-logo {
+    order: 2;
+}
+
+.header-tel {
+    order: 1;
+
+}
+
+.header-lang {
+    order: 3;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    
+    width: 200px;
+    padding: 10px;
+    background-color: #333;
+
+}
+
+.main {
+   
+    width: 400px;
+padding: 20px;
+    background-color: #ccc;
+}
+
+.footer {
+    background-color: #eee;
+    padding: 20px;
+}
